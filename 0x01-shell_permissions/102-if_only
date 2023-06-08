@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ls -l hello | awk {print $2} eq "guillaume"]; then
+	chown betty hello
+fi	
