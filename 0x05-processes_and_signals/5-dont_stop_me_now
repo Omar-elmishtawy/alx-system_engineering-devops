@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Display PID
 
-ps -t 0| pkill bash
+pkill -f ./4-to_infinity_and_beyond
