@@ -6,7 +6,7 @@ j=1
 
 while [ $i -lt 13 ]
 do
-	j=0
+	j=1
 	echo "Hour: $i"
 	while [ $j -lt 60 ]
 	do
