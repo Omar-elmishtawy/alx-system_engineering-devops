@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Display PID
+
+ps -t 0| pkill bash
