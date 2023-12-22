@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-#Display PID
-
-pkill -f ./7-highlander
