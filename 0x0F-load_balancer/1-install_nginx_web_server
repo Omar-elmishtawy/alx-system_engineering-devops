@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#install nginx server on remote machine
+ssh -y $1
+sudo apt-get update -y
+
+sudo apt-get install nginx -y
+
+echo 'Hello Worlxd!' > /var/www/html/index.html
+
+service nginx restart
