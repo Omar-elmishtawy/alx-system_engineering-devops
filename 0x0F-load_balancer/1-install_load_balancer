@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-# configures a new HAproxy as a load balancer
+ a new HAproxy as a load balancer
 
 # Install HAproxy on a server
 sudo apt-get -y update
@@ -18,3 +17,5 @@ backend web_servers
 ' >> /etc/haproxy/haproxy.cfg
 
 service haproxy restart
+~                                                                                                                                                                                       
+~                                   
